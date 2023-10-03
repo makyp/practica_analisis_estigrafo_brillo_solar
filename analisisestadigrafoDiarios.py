@@ -5,11 +5,11 @@ import scipy as st
 from scipy.stats import skew, kurtosis
 
 #Indica el nombre de las hojas del archivo Excel
-wb = openpyxl.load_workbook("DataFrame.xlsx")
+wb = openpyxl.load_workbook("DataFrameDiarios.xlsx")
 print(wb.sheetnames)
 
 #Carga el archivo en su hoja mensual
-df = pd.read_excel(io="DataFrame.xlsx",sheet_name="Diarios",header=0,names=None, index_col=None, engine="openpyxl" )    
+df = pd.read_excel(io="DataFrameDiarios.xlsx",sheet_name="Diarios",header=0,names=None, index_col=None, engine="openpyxl" )    
 print(df.head())
 
 #Calculo de la media general de todos los meses
