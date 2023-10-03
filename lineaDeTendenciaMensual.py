@@ -47,7 +47,7 @@ plt.title('Gráfico linea de tendencia')
 asignar=[]
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto enero
 for index, row in filtered_data.iterrows():
-    if(row['ENE']>4.0):
+    if(row['ENE']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -57,7 +57,7 @@ plt.scatter(f1, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto Febrero
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['FEB']>4.0):
+    if(row['FEB']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -66,7 +66,7 @@ plt.scatter(f4, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto Marzo
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['MAR']>4.0):
+    if(row['MAR']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -76,7 +76,7 @@ plt.scatter(f5, f2, c=asignar, s=tamanios[0])
 asignar=[]
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto ABRIL
 for index, row in filtered_data.iterrows():
-    if(row['ABR']>4.0):
+    if(row['ABR']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -86,7 +86,7 @@ plt.scatter(f3, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto MAYO
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['MAY']>4.0):
+    if(row['MAY']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -95,7 +95,7 @@ plt.scatter(f6, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto JUNIO
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['JUN']>4.0):
+    if(row['JUN']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -104,7 +104,7 @@ plt.scatter(f7, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto julio
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['JUL']>4.0):
+    if(row['JUL']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -114,7 +114,7 @@ plt.scatter(f8, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto agosto
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['AGO']>4.0):
+    if(row['AGO']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -123,7 +123,7 @@ plt.scatter(f9, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto septiembre
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['SEP']>4.0):
+    if(row['SEP']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -132,7 +132,7 @@ plt.scatter(f10, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto octubre
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['OCT']>4.0):
+    if(row['OCT']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])   
@@ -141,7 +141,7 @@ plt.scatter(f11, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto noviembre
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['NOV']>4.0):
+    if(row['NOV']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
@@ -150,7 +150,7 @@ plt.scatter(f12, f2, c=asignar, s=tamanios[0])
 # Vamos a pintar en colores los puntos por debajo y por encima de la media que 123 respeto diciembre
 asignar=[]
 for index, row in filtered_data.iterrows():
-    if(row['DIC']>4.0):
+    if(row['DIC']>123):
         asignar.append(colores[0])
     else:
         asignar.append(colores[1])
